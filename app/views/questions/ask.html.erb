@@ -1,9 +1,21 @@
 
 
-<h2>Stupid Coaching</h2>
-<p>Ask your coach anything:</p>
+<h2 class="text-lg pt-6 pl-6">Stupid Coaching</h2>
+<p class="text-gray-600 pt-6 pl-6">Ask your coach anything:</p>
 
-<form action="/answer">
-  <input type="text" placeholder="ask you question" name="question">
-  <input type="submit" value="Ask!">
-</form>
+<div class="w-full max-w-xs pt-6 pl-6">
+  <form action ="/answer" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="your question here">
+        Ask your question here
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="ask you question" name="question">
+    </div>
+    <div class="flex items-center justify-between">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+        Ask!
+      </button>
+    </div>
+  </form>
+
+
